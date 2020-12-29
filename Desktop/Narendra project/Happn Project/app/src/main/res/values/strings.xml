@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Happpn</string>
+    <string name="happn">happn</string>
+    <string name="Find_the_people_you_have_crossed_paths_with_text">Find the people you have crossed paths with</string>
+    <string name="Continue_with_Facebook_text">Continue with Facebook</string>
+    <string name="Continue_with_Google_text">Continue with Google</string>
+    <string name="Use_my_phone_number_text">Use my phone number</string>
+    <string name="By_resistering_you_agree_to_our_Terms_of_services_and_our_privacy_policy">By registering, you agree to our terms and service and our privacy policy</string>
+   <string name="Recover_my_account">Recover my account</string>
 </resources>
