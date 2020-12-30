@@ -6,5 +6,10 @@
     <string name="Continue_with_Google_text">Continue with Google</string>
     <string name="Use_my_phone_number_text">Use my phone number</string>
     <string name="By_resistering_you_agree_to_our_Terms_of_services_and_our_privacy_policy">By registering, you agree to our terms and service and our privacy policy</string>
-   <string name="Recover_my_account">Recover my account</string>
+    <string name="Recover_my_account">Recover my account</string>
+    <string name="did_get_you_get_your_code_enter_it">Did you get your code ? Enter it</string>
+    <string name="Here_">Here!</string>
+    <string name="enter_the_password">Enter the password</string>
+    <string name="have_you_still_not_received_a_code_at_your_number">Have you still not received a code at your number?</string>
+    <string name="we_will_call_you_in_two_mints">We will call you in 2 minutes to give it to you</string>
 </resources>
