@@ -7,16 +7,12 @@
     <string name="Use_my_phone_number_text">Use my phone number</string>
     <string name="By_resistering_you_agree_to_our_Terms_of_services_and_our_privacy_policy">By registering, you agree to our terms and service and our privacy policy</string>
     <string name="Recover_my_account">Recover my account</string>
-    <string name="did_get_you_get_your_code_enter_it">Did you get your code ? Enter it</string>
-    <string name="Here_">Here!</string>
-    <string name="enter_the_password">Enter the password</string>
-    <string name="have_you_still_not_received_a_code_at_your_number">Have you still not received a code at your number?</string>
-    <string name="we_will_call_you_in_two_mints">We will call you in 2 minutes to give it to you</string>
     <string name="app1_name">Happpn</string>
     <string name="name_number">Whats your phone number?</string>
     <string name="name_91">+91</string>
     <string name="name_words">We need it to verify your account, and exclusively for that reason. it never be shown on your profile.</string>
     <string name="name_continue">Continue</string>
+
     <string name="name_first">Whats your first name?</string>
     <string name="name_nameWords">We are sure you have a cute little nickname,but we still need your real name to identify you correctly.</string>
     <string name="Did_you_get_your_code_Enter_id">Did you get your code? Enter it</string>
@@ -25,4 +21,12 @@
     <string name="what_is_your_date_of_birth">What is date of birth?</string>
     <string name="your_age">Your Age</string>
     <string name="we_need_your_dob">We need Your Date Of Birth But We Swear,You Do Not Look</string>
+    <string name="a_relationship">A Relationship</string>
+    <string name="nothing_serious">Nothing Serious</string>
+    <string name="i_will_know_when_i_find_it">I will know when I find it</string>
+    <string name="happan">Happan?</string>
+    <string name="what_are_you_looking_for_on">What are you looking for on</string>
+    <string name="how_tall_are_you">How tall are you?</string>
+    <string name="height_in_cm">Height in cm</string>
+
 </resources>
