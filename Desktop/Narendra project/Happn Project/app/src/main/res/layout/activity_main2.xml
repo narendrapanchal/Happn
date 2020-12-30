@@ -7,11 +7,22 @@
     android:background="@color/white"
     tools:context=".MainActivity2">
 
+    <ImageView
+        android:id="@+id/mainActivity4Arrow"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_marginLeft="@dimen/dp_30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/ic_left_arrow"/>
+
     <TextView
         android:id="@+id/mainActivity2txtPhoneNumber"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="180dp"
+        android:layout_marginLeft="@dimen/dp_50"
         android:text="@string/name_number"
         android:textColor="@color/faint"
         android:textSize="@dimen/sp_25"
@@ -89,7 +100,9 @@
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="@dimen/sp_20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mainActivity2TxtWords" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+   </androidx.constraintlayout.widget.ConstraintLayout>
