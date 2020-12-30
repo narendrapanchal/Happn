@@ -9,10 +9,12 @@ import android.widget.Button;
 
 public class MainActivity4 extends AppCompatActivity {
     private Button mainActivityJava4BtnContinue;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
+
         mainActivityJava4BtnContinue = findViewById(R.id.mainActivity4btnContinue);
         mainActivityJava4BtnContinue.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,3 +25,4 @@ public class MainActivity4 extends AppCompatActivity {
         });
     }
     }
+
