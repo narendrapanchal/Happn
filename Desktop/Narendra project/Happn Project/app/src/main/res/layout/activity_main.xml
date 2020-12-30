@@ -4,8 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue"
+    android:background="@color/sky"
     tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="@dimen/dp_50"
+        android:layout_height="@dimen/dp_50"
+        android:src="@drawable/happn_icon"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_40"/>
 
     <TextView
         android:id="@+id/happnTextID"
@@ -15,7 +21,7 @@
         android:textStyle="bold"
         android:textColor="@color/white"
         android:textSize="32sp"
-        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_marginLeft="@dimen/dp_70"
         android:layout_marginTop="@dimen/dp_40"
      />
     <TextView
@@ -25,6 +31,7 @@
         android:layout_below="@+id/happnTextID"
         android:padding="@dimen/sp_20"
         android:textColor="@color/white"
+        android:textStyle="bold"
         android:text="@string/Find_the_people_you_have_crossed_paths_with_text"
         android:textSize="@dimen/sp_39"
         android:layout_margin="@dimen/sp_20"/>

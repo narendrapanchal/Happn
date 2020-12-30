@@ -5,7 +5,7 @@
     <dimen name="dp_40">40dp</dimen>
     <dimen name="sp_40">40sp</dimen>
     <dimen name="sp_20">20sp</dimen>
-    <dimen name="dp_10">10dp</dimen>
+
     <dimen name="sp_30">30sp</dimen>
     <dimen name="sp_39">39sp</dimen>
     <dimen name="dp_120">120dp</dimen>
@@ -29,5 +29,7 @@
     <dimen name="dp_47">47dp</dimen>
     <dimen name="dp_70">70dp</dimen>
     <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_220">220dp</dimen>
+    <dimen name="dp_90">90dp</dimen>
 
 </resources>
