@@ -21,5 +21,12 @@
     <string name="what_is_your_date_of_birth">What is date of birth?</string>
     <string name="your_age">Your Age</string>
     <string name="we_need_your_dob">We need Your Date Of Birth But We Swear,You Do Not Look</string>
+    <string name="a_relationship">A Relationship</string>
+    <string name="nothing_serious">Nothing Serious</string>
+    <string name="i_will_know_when_i_find_it">I will know when I find it</string>
+    <string name="happan">Happan?</string>
+    <string name="what_are_you_looking_for_on">What are you looking for on</string>
+    <string name="how_tall_are_you">How tall are you?</string>
+    <string name="height_in_cm">Height in cm</string>
 
 </resources>
