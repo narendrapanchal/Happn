@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity4">
+
+    <ImageView
+        android:id="@+id/mainActivity4Arrow"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_marginLeft="@dimen/dp_30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/ic_left_arrow"/>
+
+    <TextView
+        android:id="@+id/mainActivity4FirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="@string/name_first"
+        android:textColor="@color/faint"
+        android:textSize="@dimen/sp_25"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/mainActivity4textName"
+        android:layout_width="@dimen/dp_300"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginLeft="@dimen/dp_60"
+        android:layout_marginTop="@dimen/dp_30"
+        android:background="@drawable/rectangle"
+        android:inputType="text"
+        android:paddingLeft="@dimen/dp_50"
+        android:paddingTop="@dimen/dp_7"
+        android:paddingBottom="@dimen/dp_7"
+        android:textColor="@color/faint"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainActivity4FirstName" />
+    <TextView
+        android:id="@+id/mainActivity4TxtWordsName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_50"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="@dimen/dp_30"
+        android:text="@string/name_nameWords"
+        android:textColor="@color/darkgray"
+        android:textSize="@dimen/sp_15"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainActivity4textName" />
+    <Button
+        android:id="@+id/mainActivity4btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_50"
+        android:layout_marginTop="@dimen/dp_80"
+        android:layout_marginRight="@dimen/dp_50"
+        android:background="@drawable/rectangle_bg"
+        android:text="@string/name_continue"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainActivity4TxtWordsName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
