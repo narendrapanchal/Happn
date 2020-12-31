@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity10">
+
+    <ImageView
+        android:id="@+id/mainActivity10Arrow"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_30"
+        android:background="@drawable/ic_left_arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/mainActivity10Muscle"
+        android:layout_width="@dimen/dp_70"
+        android:layout_height="@dimen/dp_60"
+        android:layout_marginTop="@dimen/dp_60"
+        android:foregroundGravity="center"
+        android:src="@drawable/muscle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainActivity10Arrow" />
+
+    <TextView
+        android:id="@+id/mainActivity10Excise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_30"
+        android:gravity="center"
+        android:text="@string/exercise"
+        android:textColor="@color/faint"
+        android:textSize="@dimen/sp_25"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/mainActivity10Muscle" />
+
+    <Button
+        android:id="@+id/mainActivity10BtnOccasional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_50"
+        android:layout_marginRight="@dimen/dp_30"
+        android:background="@drawable/rectangle_activity_10"
+        android:padding="@dimen/dp_20"
+        android:text="@string/Occasional_Exercise"
+        android:textAllCaps="false"
+        android:textColor="@color/faint"
+        android:textSize="@dimen/sp_20"
+        app:layout_constraintTop_toBottomOf="@+id/mainActivity10Excise" />
+
+    <Button
+        android:id="@+id/mainActivity10BtnCardio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_30"
+        android:background="@drawable/rectangle_activity_10"
+        android:padding="@dimen/dp_20"
+        android:text="@string/Cardio"
+        android:textAllCaps="false"
+        android:textColor="@color/faint"
+        android:textSize="@dimen/sp_20"
+        app:layout_constraintTop_toBottomOf="@+id/mainActivity10BtnOccasional" />
+
+    <Button
+        android:id="@+id/mainActivity10BtnAllExcise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_30"
+        android:background="@drawable/rectangle_activity_10"
+        android:padding="@dimen/dp_20"
+        android:text="@string/All_excise"
+        android:textAllCaps="false"
+        android:textColor="@color/faint"
+        android:textSize="@dimen/sp_20"
+        app:layout_constraintTop_toBottomOf="@+id/mainActivity10BtnCardio" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
