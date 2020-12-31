@@ -21,7 +21,6 @@
     <string name="name_nameWords">We are sure you have a cute little nickname,but we still need your real name to identify you correctly.</string>
     <string name="Did_you_get_your_code_Enter_id">Did you get your code? Enter it</string>
     <string name="here">Here!</string>
-    <string name="enter_the_password">Enter the password</string>
     <string name="what_is_your_date_of_birth">What is date of birth?</string>
     <string name="your_age">Your Age</string>
     <string name="we_need_your_dob">We need Your Date Of Birth But We Swear,You Do Not Look</string>
@@ -38,5 +37,7 @@
     <string name="Occasional_Exercise">Occasional exercise</string>
     <string name="Cardio">Enough cardio to keep up</string>
     <string name="All_excise">All excise all the time</string>
+    <string name="how_tall_are_you">How tall are you?</string>
+    <string name="confirm">Confirm</string>
 
 </resources>
