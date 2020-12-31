@@ -38,5 +38,9 @@
     <string name="Cardio">Enough cardio to keep up</string>
     <string name="All_excise">All excise all the time</string>
     <string name="confirm">Confirm</string>
+    <string name="i_am_in_bed_by_midnight">I am in bed by midnight</string>
+    <string name="i_party_in_moderation">I Party in moderation</string>
+    <string name="i_am_a_night_owl">I am a night owl</string>
+    <string name="when_it_comes_to_the_night_life">When it comes to the night life....</string>
 
 </resources>
