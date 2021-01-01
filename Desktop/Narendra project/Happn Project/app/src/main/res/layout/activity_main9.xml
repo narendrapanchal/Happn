@@ -6,7 +6,16 @@
     android:background="@color/white"
     android:layout_height="match_parent"
     tools:context=".MainActivity9">
-
+    <ImageView
+        android:id="@+id/mainActivity4Arrow"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:foregroundGravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/ic_left_arrow"/>
     <TextView
         android:id="@+id/mainActivity9HowTallAreyou"
         android:layout_width="wrap_content"
@@ -33,6 +42,7 @@
         android:background="@drawable/rectangle"
         android:paddingBottom="@dimen/dp_7"
         android:inputType="number"
+        android:hint="@string/length_in_cm"
         android:textColorHint="@color/black"
         android:textColor="@color/black"
         android:paddingLeft="@dimen/dp_5"
