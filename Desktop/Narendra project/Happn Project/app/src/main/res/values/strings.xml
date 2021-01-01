@@ -43,11 +43,8 @@
     <string name="i_am_a_night_owl">I am a night owl</string>
     <string name="when_it_comes_to_the_night_life">When it comes to the night life....</string>
     <string name="All_set">You are All set</string>
-    <string name="My_Account">My Account</string>
-    <string name="My_Preferences">My Preferences</string>
-    <string name="Choose_path">Choose who you would like to cross paths with</string>
-    <string name="Favorites">Favorites</string>
-    <string name="Flashnotes">You sent them a FlashNote!</string>
-    <string name="invite_friends">Invite Friends</string>
-    <string name="earn_flashnotes">Invite your friends and earn FlashNotes!</string>
+    <string name="dd">DD</string>
+    <string name="yyyy">YYYY</string>
+    <string name="mm">MM</string>
+    <string name="length_in_cm">length in cm</string>
 </resources>
