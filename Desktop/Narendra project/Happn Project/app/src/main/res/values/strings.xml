@@ -47,6 +47,7 @@
     <string name="yyyy">YYYY</string>
     <string name="mm">MM</string>
     <string name="length_in_cm">length in cm</string>
+    <string name="notifications">Notifications</string>
     <string name="My_Account">My Account</string>
     <string name="Choose_path">Choose who you would like to cross paths with</string>
     <string name="My_Preferences">My Preferences</string>
@@ -56,4 +57,5 @@
     <string name="inviteFlashnotes">Invite your friendsband earn FlashNotes!</string>
     <string name="App_setting">App settings</string>
     <string name="manage_setting">Manage your notifications, connected accounts..</string>
+
 </resources>
