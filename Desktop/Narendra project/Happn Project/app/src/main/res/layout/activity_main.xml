@@ -66,8 +66,8 @@
         android:layout_marginLeft="@dimen/dp_40"
         android:layout_marginRight="@dimen/dp_40"
         />
-    <TextView
-        android:id="@+id/continueWithPhoneTextID"
+    <Button
+        android:id="@+id/continueWithPhoneTextID1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/continueWithGoogleTextID"
@@ -85,7 +85,7 @@
         android:id="@+id/byResisteringTextID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/continueWithPhoneTextID"
+        android:layout_below="@id/continueWithPhoneTextID1"
         android:text="@string/By_resistering_you_agree_to_our_Terms_of_services_and_our_privacy_policy"
         android:textColor="@color/white"
         android:textSize="@dimen/sp_20"

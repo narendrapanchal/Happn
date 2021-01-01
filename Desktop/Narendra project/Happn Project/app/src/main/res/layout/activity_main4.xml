@@ -8,7 +8,6 @@
     tools:context=".MainActivity4">
 
     <ImageView
-
         android:id="@+id/mainActivity4Arrow"
         android:layout_width="@dimen/dp_40"
         android:layout_height="@dimen/dp_40"
