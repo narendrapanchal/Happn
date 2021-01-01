@@ -57,5 +57,6 @@
     <string name="inviteFlashnotes">Invite your friendsband earn FlashNotes!</string>
     <string name="App_setting">App settings</string>
     <string name="manage_setting">Manage your notifications, connected accounts..</string>
+    <string name="Message">Messages</string>
 
 </resources>
