@@ -47,4 +47,5 @@
     <string name="yyyy">YYYY</string>
     <string name="mm">MM</string>
     <string name="length_in_cm">length in cm</string>
+    <string name="notifications">Notifications</string>
 </resources>
