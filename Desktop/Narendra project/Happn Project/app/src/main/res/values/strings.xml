@@ -48,4 +48,14 @@
     <string name="mm">MM</string>
     <string name="length_in_cm">length in cm</string>
     <string name="notifications">Notifications</string>
+    <string name="My_Account">My Account</string>
+    <string name="Choose_path">Choose who you would like to cross paths with</string>
+    <string name="My_Preferences">My Preferences</string>
+    <string name="Favorites">Favorites</string>
+    <string name="Flashnotes">You sent them a FlashNote!</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="inviteFlashnotes">Invite your friendsband earn FlashNotes!</string>
+    <string name="App_setting">App settings</string>
+    <string name="manage_setting">Manage your notifications, connected accounts..</string>
+
 </resources>
