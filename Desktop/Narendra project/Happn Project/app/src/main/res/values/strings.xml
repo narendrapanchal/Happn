@@ -44,4 +44,7 @@
     <string name="when_it_comes_to_the_night_life">When it comes to the night life....</string>
     <string name="All_set">You are All set</string>
     <string name="dd">DD</string>
+    <string name="yyyy">YYYY</string>
+    <string name="mm">MM</string>
+    <string name="length_in_cm">length in cm</string>
 </resources>
