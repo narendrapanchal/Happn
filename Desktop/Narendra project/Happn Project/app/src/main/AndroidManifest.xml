@@ -11,6 +11,7 @@
         android:theme="@style/Theme.Happpn">
         <activity android:name=".ChatActivity"></activity>
         <activity android:name=".ProfileActivity" />
+        <activity android:name=".Notification"/>
         <activity android:name=".MainActivity13" />
         <activity android:name=".MainActivity12" />
         <activity android:name=".MainActivity11" />
