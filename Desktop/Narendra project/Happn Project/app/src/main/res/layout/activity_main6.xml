@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
    android:background="@color/white"
     tools:context=".MainActivity6">
+    <ImageView
+        android:id="@+id/mainActivity4Arrow"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:foregroundGravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/ic_left_arrow"/>
+
     <TextView
         android:id="@+id/mainActivity6TextProfile"
         android:layout_width="match_parent"
@@ -39,8 +50,8 @@
     <ImageView
         android:layout_width="@dimen/dp_120"
         android:layout_height="@dimen/dp_120"
-        android:layout_marginTop="184dp"
-        android:layout_marginEnd="4dp"
+        android:layout_marginTop="@dimen/dp_160"
+        android:layout_marginEnd="@dimen/dp_5"
         android:layout_marginRight="4dp"
         android:background="@drawable/ic_smile"
         app:layout_constraintEnd_toEndOf="parent"

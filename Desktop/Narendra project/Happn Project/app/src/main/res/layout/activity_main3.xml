@@ -47,7 +47,7 @@
         android:layout_marginTop="@dimen/dp_30"
         android:background="@drawable/rectangle"
         android:paddingBottom="@dimen/dp_7"
-        android:inputType="phone"
+        android:inputType="textPassword"
         android:hint="@string/enter_the_password"
         android:textColorHint="@color/black"
         android:textColor="@color/black"

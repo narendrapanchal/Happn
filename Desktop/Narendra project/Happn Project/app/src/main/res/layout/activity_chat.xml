@@ -42,55 +42,65 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
-        android:id="@+id/mainActivity13Home"
+    <Button
+        android:id="@+id/activityChatHome"
         android:layout_width="@dimen/dp_40"
         android:layout_height="@dimen/dp_40"
         android:layout_marginLeft="@dimen/dp_30"
         android:layout_marginBottom="@dimen/dp_10"
-        android:src="@drawable/homegray"
+        android:drawableLeft="@drawable/homegray"
+        android:paddingLeft="@dimen/dp_10"
+        android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
-        android:id="@+id/mainActivity13Notification"
-        android:layout_width="@dimen/dp_40"
-        android:layout_height="@dimen/dp_40"
-        android:layout_marginLeft="@dimen/dp_40"
-        android:layout_marginBottom="@dimen/dp_10"
-        android:background="@drawable/ic_bellgrey"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@id/mainActivity13Home" />
-
-    <ImageView
-        android:id="@+id/mainActivity13map"
-        android:layout_width="@dimen/dp_50"
-        android:layout_height="@dimen/dp_40"
-        android:layout_marginLeft="@dimen/dp_40"
-        android:layout_marginBottom="@dimen/dp_10"
-        android:background="@drawable/ic_location"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@id/mainActivity13Notification" />
-
-    <ImageView
-        android:id="@+id/mainActivity13message"
+    <Button
+        android:id="@+id/activityChatNotification"
         android:layout_width="@dimen/dp_40"
         android:layout_height="@dimen/dp_40"
         android:layout_marginLeft="@dimen/dp_30"
         android:layout_marginBottom="@dimen/dp_10"
-        android:background="@drawable/chatblue"
+        android:drawableLeft="@drawable/ic_bellgrey"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/dp_10"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@id/mainActivity13map" />
+        app:layout_constraintStart_toEndOf="@id/activityChatHome" />
 
-    <ImageView
-        android:id="@+id/mainActivity13Profile"
+    <Button
+        android:id="@+id/activityChatmap"
         android:layout_width="@dimen/dp_40"
         android:layout_height="@dimen/dp_40"
         android:layout_marginLeft="@dimen/dp_30"
         android:layout_marginBottom="@dimen/dp_10"
-        android:background="@drawable/ic_persongrey"
+        android:drawableLeft="@drawable/ic_location"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/dp_10"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@id/mainActivity13message" />
+        app:layout_constraintStart_toEndOf="@id/activityChatNotification" />
+
+    <Button
+        android:id="@+id/activityChatmessage"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:drawableLeft="@drawable/chatblue"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/dp_10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/activityChatmap" />
+
+    <Button
+        android:id="@+id/activityChatProfile"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:drawableLeft="@drawable/ic_persongrey"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/dp_10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/activityChatmessage" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
