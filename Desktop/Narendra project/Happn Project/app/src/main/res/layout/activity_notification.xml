@@ -10,60 +10,70 @@
         android:id="@+id/textViewBackground"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="@dimen/dp_25"
+        android:paddingTop="@dimen/dp_30"
         android:paddingBottom="@dimen/dp_15"
         android:background="@drawable/rectangle_plane"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
+    <Button
         android:id="@+id/activityNotificationHomeIcon"
         android:layout_width="37dp"
         android:layout_height="44dp"
         android:layout_marginLeft="@dimen/sp_30"
         android:layout_marginBottom="@dimen/dp_10"
-        android:src="@drawable/ic_homegrey"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/dp_10"
+        android:drawableLeft="@drawable/ic_homegrey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
+    <Button
         android:id="@+id/activityNotificationBellIcon"
         android:layout_width="@dimen/dp_40"
         android:layout_height="@dimen/dp_40"
+        android:background="@color/white"
         android:layout_marginLeft="@dimen/dp_25"
         android:layout_marginBottom="@dimen/dp_10"
-        android:src="@drawable/ic_bellgreen"
+        android:paddingLeft="@dimen/dp_10"
+        android:drawableLeft="@drawable/ic_bellgreen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/activityNotificationHomeIcon" />
 
-    <ImageView
+    <Button
         android:id="@+id/activityNotificationLocationIcon"
         android:layout_width="@dimen/dp_50"
         android:layout_height="@dimen/dp_40"
         android:layout_marginLeft="@dimen/dp_30"
         android:layout_marginBottom="@dimen/dp_10"
-        android:src="@drawable/ic_location"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/dp_10"
+        android:drawableLeft="@drawable/ic_location"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/activityNotificationBellIcon" />
 
-    <ImageView
+    <Button
         android:id="@+id/activityNotificationChatIcon"
         android:layout_width="@dimen/dp_40"
         android:layout_height="@dimen/dp_40"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/dp_10"
         android:layout_marginLeft="@dimen/dp_30"
         android:layout_marginBottom="@dimen/dp_10"
-        android:src="@drawable/ic_cahtgrey"
+        android:drawableLeft="@drawable/ic_cahtgrey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/activityNotificationLocationIcon" />
 
-    <ImageView
+    <Button
         android:id="@+id/activityNotificationPersonIcon"
         android:layout_width="@dimen/dp_40"
+        android:background="@color/white"
         android:layout_height="@dimen/dp_40"
         android:layout_marginLeft="@dimen/dp_35"
+        android:paddingLeft="@dimen/dp_10"
         android:layout_marginBottom="@dimen/dp_10"
-        android:src="@drawable/ic_persongrey"
+        android:drawableLeft="@drawable/ic_persongrey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/activityNotificationChatIcon" />
     <ScrollView
@@ -71,7 +81,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
          android:layout_marginTop="@dimen/dp_70"
-        android:layout_marginBottom="@dimen/dp_10"
         android:paddingBottom="@dimen/dp_76">
 
     <LinearLayout
