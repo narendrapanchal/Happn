@@ -17,7 +17,7 @@ public class MainActivity11 extends AppCompatActivity {
         setContentView(R.layout.activity_main11);
         mainActivity11mIAmInBedByMidNight=findViewById(R.id. mainActivity11IAmInBedByMidNight);
         mainActivity11mIPartyInModeration=findViewById(R.id. mainActivity11IPartyInModeration);
-        mainActivity11mIAmInBedByMidNight=findViewById(R.id. mainActivity11IAmANightOwl);
+        mainActivity11mIAmNightOwl=findViewById(R.id. mainActivity11IAmANightOwl);
         mainActivity11mIAmInBedByMidNight.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -36,7 +36,7 @@ public class MainActivity11 extends AppCompatActivity {
 
         });
 
-                mainActivity11mIAmInBedByMidNight.setOnClickListener(new View.OnClickListener() {
+                mainActivity11mIAmNightOwl.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         Intent intentmainActivity11=new Intent(MainActivity11.this,MainActivity12.class);
